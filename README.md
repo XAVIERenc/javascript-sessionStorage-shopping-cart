@@ -3,6 +3,9 @@ A complete shopping cart built with Javascript and sessionStorage. Includes PayP
 I wrote this shopping cart script after Gabriele Romanato's tutorial on Smashing Magazine. All credit goes to him for it's design and concepts. His tutorial however, used JQuery. I wanted to rewrite it in vanilla Javascript. You can find his tutorial below:
 https://www.smashingmagazine.com/2014/02/create-client-side-shopping-cart
 
+You can see his JQuery version in his repository:
+https://github.com/gabrieleromanato/jQuery-sessionStorage-shopping-cart
+
 Gabriele Romanato's tutorial focused on the proof-of-concept of a shopping cart using sessionStorage to store data while retaining the ability to navigate to different pages. It did not focus on form validation. While validation is welcome, trying to cover all the aspects and security risks defeats the purpose of his tutorial.
 
 Now for the fun. Since I am a Javascript advocate and hate using JQuery with every fiber I have, I felt it my mission to rewrite this script for those who also don't use JQuery. It was a troubling task as I have avoided learning JQuery all these years. Furthermore, you have made use of OOP (Object Oriented Programming). A concept which I grasped with PHP but, had yet to use in Javascript. So it was time to bust out my reading glasses. This article, for me, became more of a task to learn OOP in Javascript than it was learning sessionStorage. A feature which I had already learned. That said, you had used OOP and self invoking functions with closures. These self invoking functions eliminated the need for inline script statements in the markup. A concept that triggered a light bulb for me. So thanks for that. Although, I think it would have been helpful to point out that small detail. I am by no means a starter with Javascript. But I am completely self taught, so I never got around to learning self invoking functions and closures. Nor did I have a need for them, until now.
