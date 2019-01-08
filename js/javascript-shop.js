@@ -49,14 +49,16 @@ Shop.prototype = {
 
    // Public functions
    createCart : function() {
-      if ( this.storage.getItem(this.cartName) == null )
+      var self = this ;
+
+      if ( self.storage.getItem(self.cartName) == null )
          {
          var cart = {} ;
          cart.items = [] ;
 
-         this.storage.setItem(this.cartName , this._toJSONString(cart)) ;
-         this.storage.setItem(this.shippingRates , "0") ;
-         this.storage.setItem(this.total , "0") ;
+         self.storage.setItem(self.cartName , self._toJSONString(cart)) ;
+         self.storage.setItem(self.shippingRates , "0") ;
+         self.storage.setItem(self.total , "0") ;
          }
       } ,
 
