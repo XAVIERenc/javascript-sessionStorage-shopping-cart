@@ -1,0 +1,47 @@
+<html>
+<!-- All code written by Jeffrey B. Madden 2018. -->
+<head>
+<title>Order</title>
+<meta name="author" content="Jeffrey B. Madden"  />
+<meta name="generator" content="othermindparadigm"  />
+<meta http-equiv="content-type" content="text/html;charset=utf-8"  />
+</head>
+
+<body>
+
+<h1>Your Order</h1>
+
+<table id="checkout-cart" class="shopping-cart">
+   <thead>
+      <tr>
+         <th>Item</th>
+         <th>Qty</th>
+         <th>Price</th>
+      </tr>
+   </thead>
+
+   <tbody></tbody>
+</table>
+
+<div id="pricing">
+   <p id="shipping"><b>Shipping: </b><span id="sshipping"></span></p>
+   <p id="sub-total"><b>Total: </b><span id="stotal"></span></p>
+</div>
+
+<div id="user-details">
+   <h2>Your Data</h2>
+   <div id="user-details-content"></div>
+</div>
+
+<form action="" method="post" id="paypal-form">
+   <input type="hidden" name="cmd" value="_cart"  />
+   <input type="hidden" name="upload" value="1"  />
+   <input type="hidden" name="business" value=""  />
+   <input type="hidden" name="currency_code" value=""  />
+   <input type="submit" id="paypal-btn" class="btn" value="Pay with Paypal"  />
+</form>
+
+<script type="text/javascript" src="cart_mechanics.js"></script>
+
+</body>
+</html>
