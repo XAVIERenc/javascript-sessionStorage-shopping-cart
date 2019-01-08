@@ -27,7 +27,7 @@ Shop.prototype = {
       this.paypalForm = document.getElementById("paypal-form") ;
 
       this.currency = "&euro;" ;
-      this.currencyString = "â‚¬" ;
+      this.currencyString = "€" ;
       this.paypalCurrency = "EUR" ;
       this.paypalBusinessEmail = "yourbusiness@email.com" ;
       this.paypalURL = "https://www.sandbox.paypal.com/cgi-bin/webscr" ;
