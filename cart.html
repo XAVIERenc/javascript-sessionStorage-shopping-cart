@@ -1,0 +1,39 @@
+<html>
+<!-- All code written by Jeffrey B. Madden 2018. -->
+<head>
+<title>Shopping Cart</title>
+<meta name="author" content="Jeffrey B. Madden"  />
+<meta name="generator" content="othermindparadigm.com"  />
+<meta http-equiv="content-type" content="text/html;charset=utf-8"  />
+<link rel="stylesheet" type="text/css" href="styles.css"  />
+</head>
+
+<body>
+
+<form action="cart.html" method="post" id="shopping-cart">
+   <table class="shopping-cart">
+      <thead>
+         <tr>
+            <th>Item</th>
+            <th>Qty</th>
+            <th>Price</th>
+         </tr>
+      </thead>
+
+      <tbody></tbody>
+   </table>
+
+   <p><b>Sub Total: </b><span id="stotal"></span></p>
+
+   <ul id="shopping-cart-actions">
+      <li><input type="submit" name="update" id="update-cart" class="btn" value="Update cart"  /></li>
+      <li><input type="submit" name="delete" id="empty-cart" class="btn" value="Empty cart"  /></li>
+      <li><a href="index.html" class="btn">Continue Shopping</a></li>
+      <li><a href="checkout.html" class="btn">Go To Checkout</a></li>
+   </ul>
+</form>
+
+<script type="text/javascript" src="cart_mechanics.js"></script>
+
+</body>
+</html>
